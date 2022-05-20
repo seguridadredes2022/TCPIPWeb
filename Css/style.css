@@ -1,0 +1,123 @@
+.navbar{
+    background-color: black;
+}
+.nav-link{
+    color: palevioletred;
+}
+.nav-link :hover{
+    color: palevioletred;
+}
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+.btn-ligth{
+    background-color: palevioletred;
+    color:white;
+    border: 2px palevioletred;
+}
+.Mklog{
+    min-width: 160px;
+    max-width: 180px;
+}
+#mk{
+    background-image: url(../Images/MK.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: black;
+}
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+.content-center{
+    text-align: center;
+}
+h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+section{
+    padding: 170px 0;
+}
+.CP-container{
+position: relative;
+overflow: hidden;
+margin: 10px 0;
+border-radius: 2px;
+}
+.cp-details{
+position: absolute;
+bottom: 25px;
+left: 25px;
+z-index: 9000;
+}
+.cp-details a h2 {
+    color:palevioletred;
+}
+a:hover{
+    text-decoration: none;
+}
+.cp-details h2{
+    margin-bottom: 0px;
+}
+
+.link{
+    margin-left:  5%;
+    margin-right:  30%;
+    font-size: 180%;
+    color: palevioletred;  
+}
+.py-5{
+    background-color: black;
+}
+.container{
+    color: palevioletred;
+}
+.container2 {
+    color: palevioletred;
+    padding: 130px;
+}
+#btnadd{
+    background-color: palevioletred;
+    color: white;
+    border: palevioletred;
+}
+#btnsave{
+    background-color: palevioletred;
+    color: white;
+    border: palevioletred;   
+}
+.btncompra{
+    background-color: palevioletred;
+    color: white;
+    border: palevioletred;
+}
+.tdright{
+    text-align: right;
+}
+th{
+    text-align: center;
+}
+.cd img{
+height: 30px;
+width: 30px;
+}
+.c3{
+    text-align: right;
+    color: black;
+}
+.suma{
+background-color:palevioletred;
+
+color: white;
+}
+.resta{
+    
+    background-color:palevioletred;
+color: white;
+}

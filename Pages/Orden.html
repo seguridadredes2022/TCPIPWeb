@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type='text/css' media='screen' href="../Css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Generar orden</title>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#"><img src="../Images/MKLogo.png" class="Mklog" alt="MKlogo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+        <div class="container">     
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item dropdown">
+                        <li class="nav-item active">
+                            <a class="nav-link" target="_blank" href="../index.html">Home</a>
+                          </li>
+                          <li class="nav-item active">
+                            <a class="nav-link" href="../Pages/Login.html">Login</a>
+                          </li>
+                        <li class="nav-item administrador">
+                          <a class="nav-link" href="../Pages/Productos.html">Nuestros Productos</a>
+            
+                      </li>
+                      <li class="nav-item">
+                        <a target="_blank" class="nav-link" href="../Pages/Orden.html">Orden de compra</a> 
+            
+                    </li>
+                    <li class="nav-item administrador">
+                        <a target="_blank" class="nav-link" href="../Pages/Estado.html">Estado</a> 
+            
+                    </li>
+                    <li class="nav-item administrador">
+                        <a target="_blank" class="nav-link" href="../Pages/Existencia.html">Existencia</a> 
+            
+                    </li>
+                    <li class="nav-item administrador">
+                      <a target="_blank" class="nav-link" href="../Pages/Proveedor.html">Proveedores</a> 
+          
+                  </li>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+
+    
+              </li>
+              </ul>
+            </div>
+            </div>
+            </nav>
+
+            <div class="container2">
+
+                <header>
+        
+                    <h1 class="text-center">Orden de compra al Proveedor</h1>
+                </header>
+        
+                <form id="formdatos">
+                    <input type="hidden" id="id_pedido">
+                    <label for="f-p">Fecha pedido</label>
+                    <input type="date" class="form-control" id="f-p" name="txtfecha">
+                    <label for="f-e">Fecha entrega</label>
+                    <input type="date" class="form-control" id="f-e" name="txtfecha">
+                    <label for="c-p">Proveedor</label>
+                    <select class="form-control" id="c-p" name="txtProveedor"></select>
+                    <label for="c-prod">Producto</label>
+                    <select class="form-control" id="c-prod" name="txtProducto"></select>
+                    <label for="c">Cantidad</label>
+                    <input type="number" class="form-control" id="c" name="txtcantidad">
+                    <br>
+                    <br>
+                    <input type="submit" value="Agregar" id="btnadd" class="btn btn-success" >
+        
+                    <br>
+                    <table class="table table-bordered table-striped" class="ttable">
+                        <thead style="background-color: black; color:palevioletred;">
+                            <tr>
+                                <th>Numero orden</th>
+                                <th>Proveedor</th>
+                                <th>Producto</th>
+                                <th>Cantidad</th>
+                                <th>Fecha emision</th>
+                                <th>Fecha entrega</th>
+                                <th>Mantenimiento</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody" id="TablaOrden">
+        
+                        </tbody>
+                    </table>
+        
+                </form>
+                <a  class="btn btn-ligth" target="_blank" href="../Pages/Existencia.html" >Ver existencias</a>
+            </div>
+            
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+            <script src="../Js/jquery.js"></script>
+            <script src="../Js/pedido.js"></script>
+        <footer class="py-5">
+           <div class="container"><div class="small text-center" > Anna Morales - Desarrollo web <br>Oficinas: km 14.5 Carretera El Salvador Centro Comercial Gran Plaza Bodega 214.
+           <br>Términos & condiciones Al navegar en el sitio web usted acepta los términos y condiciones de compra de Masdel S.A.</div></div>
+           </div>
+         
+       </footer>
+</body>
+
+</html>
